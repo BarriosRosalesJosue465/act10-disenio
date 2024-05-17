@@ -10,7 +10,7 @@ class Tarifa extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text("Tarifa Cristobal"), backgroundColor: Color(0xff097209)),
+          title: Text("ventas Barrios"), backgroundColor: Color(0xffb3d200)),
       drawer: DrawerMenu(),
       body: Center(
         child: Container(
@@ -22,11 +22,11 @@ class Tarifa extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Id',
+                  hintText: 'Ingresar Id producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -38,7 +38,7 @@ class Tarifa extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.verified_user,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -51,11 +51,11 @@ class Tarifa extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Propietario',
+                  hintText: 'Ingresar Nom Producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -67,7 +67,7 @@ class Tarifa extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.person,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -80,11 +80,11 @@ class Tarifa extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar energia',
+                  hintText: 'Ingresar cliente',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -96,7 +96,7 @@ class Tarifa extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.energy_savings_leaf,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -109,11 +109,11 @@ class Tarifa extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Iva',
+                  hintText: 'Ingresar cont_vendido',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -125,7 +125,7 @@ class Tarifa extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.attach_money,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -138,11 +138,11 @@ class Tarifa extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar la factura del periodo',
+                  hintText: 'fecha de la venta',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -154,7 +154,7 @@ class Tarifa extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.attach_money,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -167,11 +167,11 @@ class Tarifa extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar DAP',
+                  hintText: 'Pago',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -183,7 +183,7 @@ class Tarifa extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.attach_money,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -196,11 +196,11 @@ class Tarifa extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Total',
+                  hintText: 'precio art',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -212,7 +212,7 @@ class Tarifa extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.attach_money,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),

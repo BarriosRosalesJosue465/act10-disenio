@@ -8,8 +8,7 @@ class Usuarios extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text("Usuarios Cristobal"),
-          backgroundColor: Color(0xff097209)),
+          title: Text("Usuarios Barrios"), backgroundColor: Color(0xffb3d200)),
       drawer: DrawerMenu(),
       body: Center(
         child: Container(
@@ -21,11 +20,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Id',
+                  hintText: 'Ingresar nombre',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -37,7 +36,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.verified_user,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -50,11 +49,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Nombre',
+                  hintText: 'Ingresar apellido',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -66,7 +65,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.person,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -79,11 +78,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Apellido Paterno',
+                  hintText: 'Ingresar contacto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -95,7 +94,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.person,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -108,11 +107,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Apellido Paterno',
+                  hintText: 'Ingresar edad',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -124,7 +123,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.person,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -137,11 +136,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar tu edad',
+                  hintText: 'Ingresar genero',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -153,7 +152,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.add,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -166,11 +165,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Contacto',
+                  hintText: 'Ingresar Domicilio',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -182,7 +181,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.phone,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -195,11 +194,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Calle',
+                  hintText: 'Ingresar estado de nacimiento',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -211,7 +210,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.streetview,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -224,11 +223,11 @@ class Usuarios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Colonia',
+                  hintText: 'Ingresar E-mail',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -240,7 +239,7 @@ class Usuarios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.streetview,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),

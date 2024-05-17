@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff097209),
+        backgroundColor: Color(0xffb3d200),
         centerTitle: true,
         leading: IconButton(
           onPressed: () {},
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
           )
         ],
         title: Text(
-          "Cristobal CFE",
+          "Barrios Sabritas",
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -76,14 +76,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   suffixIcon: IconButton(
                     icon: Icon(
                       Icons.remove_red_eye,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.email,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
-                        color: Color(0xff097209),
+                        color: Color(0xffb3d200),
                       ) // BorderSide
                       ),
                 ),

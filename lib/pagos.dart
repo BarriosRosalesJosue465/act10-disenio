@@ -7,8 +7,7 @@ class Pagos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          title: Text("Pagos Cristobal"), backgroundColor: Color(0xff097209)),
+      appBar: AppBar(title: Text("vendedores Barrios"), backgroundColor: Color(0xffb3d200)),
       drawer: DrawerMenu(),
       body: Center(
         child: Container(
@@ -20,11 +19,11 @@ class Pagos extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar id',
+                  hintText: 'id producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -36,7 +35,7 @@ class Pagos extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.verified_user,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -49,11 +48,11 @@ class Pagos extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar tipo de adeudo',
+                  hintText: 'nombre',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -65,7 +64,7 @@ class Pagos extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.rule,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -78,11 +77,11 @@ class Pagos extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Subtotal',
+                  hintText: 'apellido',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -94,7 +93,7 @@ class Pagos extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.payment,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -107,11 +106,11 @@ class Pagos extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Comision',
+                  hintText: 'e-mail',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -123,7 +122,7 @@ class Pagos extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.attach_money,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -136,11 +135,11 @@ class Pagos extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Total',
+                  hintText: 'contacto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -152,7 +151,7 @@ class Pagos extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.payment,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -170,13 +169,13 @@ class Pagos extends StatelessWidget {
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
-                        color: Color(0xff097209),
+                        color: Color(0xffb3d200),
                       ) // BorderSide
                       ),
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.add_card,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -190,11 +189,11 @@ class Pagos extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar el propietario',
+                  hintText: 'genero',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -219,11 +218,11 @@ class Pagos extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar el dia del pago',
+                  hintText: 'domicilio',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -235,7 +234,7 @@ class Pagos extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.date_range,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -247,7 +246,7 @@ class Pagos extends StatelessWidget {
 
               ElevatedButton(
                   onPressed: () {},
-                  child: Text('Siguiente')) // Text, ElevatedButton
+                  child: Text('0xffb3d200')) // Text, ElevatedButton
             ],
           ),
         ),

@@ -10,8 +10,7 @@ class Servicios extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text("Servicios Cristobal"),
-          backgroundColor: Color(0xff097209)),
+          title: Text(" Empresa Barrios"), backgroundColor: Color(0xffb3d200)),
       drawer: DrawerMenu(),
       body: Center(
         child: Container(
@@ -23,11 +22,11 @@ class Servicios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Id',
+                  hintText: 'nom empresa',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -39,7 +38,7 @@ class Servicios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.verified_user,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -52,11 +51,11 @@ class Servicios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar tu nombre',
+                  hintText: 'Ubicacion',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -68,7 +67,7 @@ class Servicios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.person,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -81,11 +80,11 @@ class Servicios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar la fecha',
+                  hintText: 'correo',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -97,7 +96,7 @@ class Servicios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.date_range,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -110,11 +109,11 @@ class Servicios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Causa',
+                  hintText: 'telefono',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -126,7 +125,7 @@ class Servicios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.feed,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -139,11 +138,40 @@ class Servicios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Colonia',
+                  hintText: 'rfc',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
+                  enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(11),
+                      borderSide:
+                          BorderSide(color: Colors.blueAccent, width: 2)),
+                  disabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(11),
+                      borderSide:
+                          BorderSide(color: Colors.blueAccent, width: 2)),
+                  prefixIcon: IconButton(
+                    icon: Icon(
+                      Icons.streetview,
+                      color: Color(0xffb3d200),
+                    ),
+                    onPressed: () {},
+                  ),
+                ),
+              ),
+              Container(
+                height: 11,
+              ),
+              ////////////////////////Registros////////////////////////////////////////
+              TextField(
+                keyboardType: TextInputType.text,
+                decoration: InputDecoration(
+                  hintText: 'Imss',
+                  focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(11),
+                      borderSide:
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -168,40 +196,11 @@ class Servicios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Calle',
+                  hintText: 'acta empresa',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
-                  enabledBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(11),
-                      borderSide:
-                          BorderSide(color: Colors.blueAccent, width: 2)),
-                  disabledBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(11),
-                      borderSide:
-                          BorderSide(color: Colors.blueAccent, width: 2)),
-                  prefixIcon: IconButton(
-                    icon: Icon(
-                      Icons.streetview,
-                      color: Color(0xff097209),
-                    ),
-                    onPressed: () {},
-                  ),
-                ),
-              ),
-              Container(
-                height: 11,
-              ),
-              ////////////////////////Registros////////////////////////////////////////
-              TextField(
-                keyboardType: TextInputType.text,
-                decoration: InputDecoration(
-                  hintText: 'Ingresar numero',
-                  focusedBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(11),
-                      borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -213,7 +212,7 @@ class Servicios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.numbers_sharp,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -225,11 +224,11 @@ class Servicios extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Contacto',
+                  hintText: 'patentes',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -241,7 +240,7 @@ class Servicios extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.phone,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),

@@ -8,7 +8,7 @@ class Casas extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text("Casas Cristobal"), backgroundColor: Color(0xff097209)),
+          title: Text("productos barrios"), backgroundColor: Color(0xffb3d200)),
       drawer: DrawerMenu(),
       body: Center(
         child: Container(
@@ -20,11 +20,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Id Usuario',
+                  hintText: 'marc producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -36,7 +36,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.verified_user,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -49,11 +49,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Codigo Postal',
+                  hintText: 'nom producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -65,7 +65,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.numbers,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -78,11 +78,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Colonia',
+                  hintText: 'precio producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -94,7 +94,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.streetview,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -106,11 +106,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Calle',
+                  hintText: 'cant producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -122,7 +122,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.streetview,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -135,11 +135,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Num_Exterior',
+                  hintText: 'info nutrimental',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -151,7 +151,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.numbers_sharp,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -164,11 +164,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Num_Interior',
+                  hintText: 'Ingresar porcion_producto',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -180,7 +180,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.numbers_sharp,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -193,11 +193,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar telefono',
+                  hintText: 'cellos',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -209,7 +209,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.phone,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),
@@ -222,11 +222,11 @@ class Casas extends StatelessWidget {
               TextField(
                 keyboardType: TextInputType.text,
                 decoration: InputDecoration(
-                  hintText: 'Ingresar Propietario',
+                  hintText: 'Ingredientes',
                   focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
-                          BorderSide(color: Color(0xff097209), width: 2)),
+                          BorderSide(color: Color(0xffb3d200), width: 2)),
                   enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(11),
                       borderSide:
@@ -238,7 +238,7 @@ class Casas extends StatelessWidget {
                   prefixIcon: IconButton(
                     icon: Icon(
                       Icons.person,
-                      color: Color(0xff097209),
+                      color: Color(0xffb3d200),
                     ),
                     onPressed: () {},
                   ),

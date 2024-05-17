@@ -12,28 +12,28 @@ class DrawerMenu extends StatelessWidget {
           _buildDrawerHeader(),
           _buildDrawerItem(
               icon: Icons.location_history,
-              text: 'Usuarios',
+              text: 'cliente',
               onTap: () =>
                   {Navigator.pushReplacementNamed(context, MyApp.usuarios)}),
           _buildDrawerItem(
               icon: Icons.contact_phone,
-              text: 'Servicios',
+              text: 'empresa',
               onTap: () =>
                   {Navigator.pushReplacementNamed(context, MyApp.servicios)}),
           Divider(),
           _buildDrawerItem(
               icon: Icons.payment,
-              text: 'Pagos',
+              text: 'vendedores',
               onTap: () =>
                   {Navigator.pushReplacementNamed(context, MyApp.pagos)}),
           _buildDrawerItem(
               icon: Icons.feed,
-              text: 'Registro Casas',
+              text: 'producto',
               onTap: () =>
                   {Navigator.pushReplacementNamed(context, MyApp.casas)}),
           _buildDrawerItem(
               icon: Icons.receipt,
-              text: 'Tarifa',
+              text: 'ventas',
               onTap: () =>
                   {Navigator.pushReplacementNamed(context, MyApp.tarifa)}),
           ListTile(
